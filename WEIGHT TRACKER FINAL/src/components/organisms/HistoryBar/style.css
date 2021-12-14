@@ -1,0 +1,18 @@
+.HistoryBar {
+	width: 250px;
+	min-height: calc(100vh - 60px);
+	padding: 1em;
+	border-right: 1px solid #ccc;
+}
+
+.HistoryBar .title {
+	margin: 0;
+}
+
+.HistoryBar .filter {
+	width: 100%;
+}
+
+.HistoryBar .filter, .HistoryBar .history-list {
+	margin-top: 0.8em;
+}
